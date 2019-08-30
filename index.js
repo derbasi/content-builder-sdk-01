@@ -10,17 +10,7 @@ app.use(express.static('.'));
 app.set('view engine', 'ejs');
 
 let mapData = {
-    apiKey: '',
-    mapCentre: 'London,UK',
-    mapHeight: 300,
-    mapWidth: 600,
-    mapZoom: 14,
-    mapType: 'roadmap',
-    imgAlt: 'yopede store',
-    mapMarker: {
-        color: '0xff0000',
-        label: 'London, UK'
-    }
+    sku: ''
 };
 
 app.get('/', (req, res) => {
