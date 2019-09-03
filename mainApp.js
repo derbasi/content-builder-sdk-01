@@ -42,12 +42,12 @@ let saveData = () => {
 <i>%%=v(@Description)=%% </i><br>
 <br>
 <br>
-<span style="font-size:18px;"><b>%%=v(@Price)=%%</b></span><br>
+<span style="font-size:18px;"><b>%%=v(@Price)=%% €</b></span><br>
 &nbsp;</td></tr></table><table cellpadding="0" cellspacing="0" width="100%" style="background-color: transparent; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 0px 0px 20px; " class="stylingblock-content-wrapper camarker-inner"><table align="left" bgcolor="#00a1f4" border="0" cellpadding="0" cellspacing="0">
  
   <tr>
    <td style="font-family: Arial; font-size: 16px; line-height: 19px; color: #ffffff; text-align:center; font-weight:normal; ">
-    <a alias="" conversion="false" data-linkto="other" href="%%=v(@Link)=%%" style="color:#ffffff;text-decoration:none;font-family: Arial; font-size: 16px; line-height: 19px; text-align:center; font-weight:normal; background-color: #00a1f4;border: 10px solid #00a1f4;display: block; white-space: nowrap; " target="_blank" title="">Get them now :)</a></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table>
+    <a alias="" conversion="false" data-linkto="other" href="%%=v(@Link)=%%" style="color:#ffffff;text-decoration:none;font-family: Arial; font-size: 16px; line-height: 19px; text-align:center; font-weight:normal; background-color: #00a1f4;border: 10px solid #00a1f4;display: block; white-space: nowrap; " target="_blank" title="">Get them now</a></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table>
                               </td>
                             </tr>
                             </tbody>
