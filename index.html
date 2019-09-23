@@ -7,6 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.10/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.10/js/select2.min.js"></script>
+
     <style type="text/css">
 
     </style>
@@ -23,7 +27,21 @@
                         <div class="form-group">
                             <label class="col-sm-4 control-label" for="sku">Enter SKU</label>
                             <div class="col-sm-4">
-                                <input id="sku" name="sku" class="form-control input-md" required="">
+                                <select class="js-example-basic-single" name="sku" >
+                                    <option></option>
+                                    <option value="20001">20001 - Business 01</option>
+                                    <option value="20002">20002 - Business 02</option>
+                                    <option value="20003">20003 - Business 03</option>
+                                    <option value="20004">20004 - Business 04</option>
+                                    <option value="30001">30001 - Casual 01</option>
+                                    <option value="30002">30002 - Casual 01</option>
+                                    <option value="30003">30003 - Casual 01</option>
+                                    <option value="30004">30004 - Casual 01</option>
+                                    <option value="10001">10001 - Sport 01</option>
+                                    <option value="10002">10002 - Sport 01</option>
+                                    <option value="10003">10003 - Sport 01</option>
+                                    <option value="10004">10004 - Sport 01</option>
+                                </select>
                             </div>
                         </div>
                     </div>
@@ -39,6 +57,7 @@
 
     <script src="blocksdk.js"></script>
     <script src="mainApp.js"></script>
+    <script src="frontEnd.js"></script>
 
 
 
