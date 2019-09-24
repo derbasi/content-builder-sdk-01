@@ -10,7 +10,7 @@ let mapData = {
     sku: ''
 };
 
-let defaultContent = '<img src="https://image.s10.sfmc-content.com/lib/fe3b15707564047a7d1573/m/1/59a1e816-d94f-4672-888c-018b41d8db52.jpg" style="display:block;width:255px;float:left;"><p style="padding-top:10px;"><b>Name</b><br><i>Description</i><br><br><span style="font-size:18px;font-weight:bold;">Price</span><br><span style="background-color:#00a1f4; border: 10px solid #00a1f4; color:#ffffff; font-size:16px;margin-top:10px;">Button</span></p>';
+let defaultContent = '<img src="https://image.s10.sfmc-content.com/lib/fe3b15707564047a7d1573/m/1/59a1e816-d94f-4672-888c-018b41d8db52.jpg" style="display:block;width:255px;float:left;"><p style="padding-top:10px;"><b>Name</b><br><i>Description</i><br><br><span style="font-size:18px;font-weight:bold;">Price</span><br><span style="background-color:#00a1f4; border: 10px solid #00a1f4; color:#ffffff; font-size:16px;margin-top:10px;display:inline-block;">Button</span></p>';
 
 let saveData = () => {
     console.log('Saving data...');
