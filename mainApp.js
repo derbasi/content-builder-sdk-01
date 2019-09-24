@@ -10,7 +10,7 @@ let mapData = {
     sku: ''
 };
 
-let defaultContent = '<img src="https://dj-gmaps-sfmc-content-nlock.herokuapp.com//dragIcon.png" style="display:block;margin-left:auto;margin-right:auto">';
+let defaultContent = '<img src="https://image.s10.sfmc-content.com/lib/fe3b15707564047a7d1573/m/1/59a1e816-d94f-4672-888c-018b41d8db52.jpg" style="display:block;margin-left:auto;margin-right:auto">';
 
 let saveData = () => {
     console.log('Saving data...');
