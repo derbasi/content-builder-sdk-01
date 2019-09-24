@@ -10,7 +10,73 @@ let mapData = {
     sku: ''
 };
 
-let defaultContent = '<p>Default</p>';
+let defaultContent = '<p><table cellspacing="0" cellpadding="0" style="width:100%">
+    <tbody>
+        <tr>
+            <td class="responsive-td" valign="top" style="width: 100%;">
+                <table cellpadding="0" cellspacing="0" width="100%" style="background-color: transparent; min-width: 100%; " class="slot-styling">
+                    <tr>
+                        <td style="padding: 0px 15px; " class="slot-styling camarker-inner">
+                            <table cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%; " class="stylingblock-content-wrapper">
+                                <tr>
+                                    <td style="padding: 10px; " class="stylingblock-content-wrapper camarker-inner">
+                                        <table cellspacing="0" cellpadding="0" style="width: 100%;">
+                                            <tr>
+                                                <td>
+                                                    <table cellspacing="0" cellpadding="0" style="width: 100%;">
+                                                        <tr>
+                                                            <td valign="top" class="responsive-td" style="width: 50%; padding-right: 5px;">
+                                                                <table cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%; " class="stylingblock-content-wrapper">
+                                                                    <tr>
+                                                                        <td class="stylingblock-content-wrapper camarker-inner">
+                                                                            <table width="100%" cellspacing="0" cellpadding="0">
+                                                                                <tr>
+                                                                                    <td align="center"><img src="https://image.s10.sfmc-content.com/lib/fe3b15707564047a7d1573/m/1/59a1e816-d94f-4672-888c-018b41d8db52.jpg" width="255" style="display: block; padding: 0px; text-align: center; border: 0px solid transparent; height: auto; width: 100%;"></td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                            <td valign="top" class="responsive-td" style="width: 50%; padding-left: 5px;">
+                                                                <table cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%; " class="stylingblock-content-wrapper">
+                                                                    <tr>
+                                                                        <td class="stylingblock-content-wrapper camarker-inner"><b>Name</b><br>
+                                                                            <i>Description</i><br>
+                                                                            <br>
+                                                                            <br>
+                                                                            <span style="font-size:18px;"><b>Price €</b></span><br>
+                                                                            &nbsp;</td>
+                                                                    </tr>
+                                                                </table>
+                                                                <table cellpadding="0" cellspacing="0" width="100%" style="background-color: transparent; min-width: 100%; " class="stylingblock-content-wrapper">
+                                                                    <tr>
+                                                                        <td style="padding: 0px 0px 20px; " class="stylingblock-content-wrapper camarker-inner">
+                                                                            <table align="left" bgcolor="#00a1f4" border="0" cellpadding="0" cellspacing="0">
+                                                                                <tr>
+                                                                                    <td style="font-family: Arial; font-size: 16px; line-height: 19px; color: #ffffff; text-align:center; font-weight:normal; ">
+                                                                                        <a alias="" conversion="false" data-linkto="other" href="" style="color:#ffffff;text-decoration:none;font-family: Arial; font-size: 16px; line-height: 19px; text-align:center; font-weight:normal; background-color: #00a1f4;border: 10px solid #00a1f4;display: block; white-space: nowrap; " target="_blank" title="">Get them now</a></td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </tbody>
+</table></p>';
 
 let saveData = () => {
     console.log('Saving data...');
