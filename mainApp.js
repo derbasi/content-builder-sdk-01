@@ -10,7 +10,7 @@ let mapData = {
     sku: ''
 };
 
-let defaultContent = '<img src="https://image.s10.sfmc-content.com/lib/fe3b15707564047a7d1573/m/1/59a1e816-d94f-4672-888c-018b41d8db52.jpg" style="display:block;margin-left:auto;margin-right:auto">';
+let defaultContent = '<img src="https://image.s10.sfmc-content.com/lib/fe3b15707564047a7d1573/m/1/59a1e816-d94f-4672-888c-018b41d8db52.jpg" style="display:block;width:255px;float:left;"><p>Name<br>Description<br>Price<br>Button</p>';
 
 let saveData = () => {
     console.log('Saving data...');
